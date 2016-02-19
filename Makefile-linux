@@ -1,0 +1,17 @@
+CC = g++
+CFLAGS = -Wall -fexceptions -O2 -Weffc++ -std=c++11 -I ../RemoteTxtEditor -c -s
+
+SOURCES = main.cpp src/networknode.cpp src/client.cpp src/server.cpp src/package.cpp src/menu.cpp\
+	  src/texteditor.cpp src/txtfilemanager.cpp src/clientapplication.cpp src/serverapplication.cpp
+OBJECTS = $(SOURCES:.cpp=.o)
+EXECUTABLE = RemoteTxtEditor
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $@
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) $< -o $@
+clean:
+	rm $(OBJECTS)

@@ -1,0 +1,179 @@
+# depslib dependency file v1.0
+1450870530 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\main.cpp
+	<stdio.h>
+	"src/clientapplication.h"
+	"src/serverapplication.h"
+
+1450459007 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\client.cpp
+	"src/client.h"
+
+1448122013 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\include\client.h
+	"networknode.h"
+
+1448122055 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\include\networknode.h
+	<winsock.h>
+	<sys/socket.h>
+	<string>
+
+1450382010 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\networknode.cpp
+	"src/networknode.h"
+
+1450459001 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\server.cpp
+	"src/server.h"
+
+1448122305 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\include\server.h
+	"networknode.h"
+
+1448147411 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\main.cc
+	<iostream>
+	"src/client.h"
+	"src/server.h"
+
+1450458713 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\client.h
+	"src/networknode.h"
+
+1450467459 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\networknode.h
+	<winsock.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<string>
+	"src/package.h"
+
+1450458722 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\server.h
+	"src/networknode.h"
+
+1448310032 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\client.cc
+	"src/client.h"
+
+1450458713 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\client.h
+	"src/networknode.h"
+
+1450467459 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\networknode.h
+	<winsock.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<string>
+	"src/package.h"
+
+1448147247 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\networknode.cc
+	"src/networknode.h"
+	<stdlib.h>
+
+1448310032 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\server.cc
+	"src/server.h"
+
+1450458722 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\server.h
+	"src/networknode.h"
+
+1450467673 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\package.h
+	<stdint.h>
+	<string.h>
+
+1450467815 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\package.cpp
+	"src/package.h"
+	<stdio.h>
+	<stdlib.h>
+
+1449448812 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\program.h
+
+1449687396 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\program.cpp
+	"src/program.h"
+	<stdio.h>
+	<conio.h>
+	"src/client.h"
+	"src/server.h"
+	"src/txtfilemanager.h"
+	"src/texteditor.h"
+
+1449448812 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\program.h
+
+1450869782 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\txtfilemanager.h
+	<fstream>
+	<string>
+
+1450869887 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\txtfilemanager.cpp
+	"src/txtfilemanager.h"
+	<string.h>
+	"src/package.h"
+
+1450258609 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\texteditor.h
+	<stdint.h>
+	<string>
+	<list>
+	<iterator>
+
+1450384970 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\texteditor.cpp
+	"src/texteditor.h"
+
+1449689614 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\remotetxteditor.h
+
+1449689694 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\remotetxteditor.cpp
+	"src/remotetxteditor.h"
+	<stdio.h>
+	<conio.h>
+	"src/client.h"
+	"src/server.h"
+	"src/txtfilemanager.h"
+	"src/texteditor.h"
+
+1449689614 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\remotetxteditor.h
+
+1450391913 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\clientapplication.h
+	"src/client.h"
+	"src/texteditor.h"
+	"src/menu.h"
+
+1450468252 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\menu.h
+	<vector>
+	<string>
+
+1450272409 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\serverapplication.h
+	"src/server.h"
+	"src/txtfilemanager.h"
+
+1450469718 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\clientapplication.cpp
+	"src/clientapplication.h"
+	<stdio.h>
+	"src/package.h"
+
+1450391913 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\clientapplication.h
+	"src/client.h"
+	"src/texteditor.h"
+	"src/menu.h"
+
+1450468349 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\menu.cpp
+	"src/menu.h"
+	<stdio.h>
+
+1450467437 source:c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\serverapplication.cpp
+	"src/serverapplication.h"
+	"src/server.h"
+
+1450272409 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\\src\serverapplication.h
+	"src/server.h"
+	"src/txtfilemanager.h"
+
+1450467673 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\package.h
+	<stdint.h>
+	<string.h>
+
+1450258609 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\texteditor.h
+	<stdint.h>
+	<string>
+	<list>
+	<iterator>
+
+1450468252 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\menu.h
+	<vector>
+	<string>
+
+1450869782 c:\users\alex\documents\oleksiy.tsubera\remotetxteditor\src\txtfilemanager.h
+	<fstream>
+	<string>
+
